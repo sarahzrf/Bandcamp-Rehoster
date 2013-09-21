@@ -1,8 +1,9 @@
 CPAN packages:
-	- LWP
+	- LWP::Simple
 	- JSON
 Python packages:
 	- gdata (for 2.7)
+	- progressbar (recommended, not required)
 Programs:
 	- ImageMagick
 	- ffmpeg (the REAL one)
