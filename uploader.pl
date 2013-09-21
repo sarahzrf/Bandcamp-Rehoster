@@ -11,5 +11,4 @@ for (<*.mp4>)
 		"--keywords='$title' '$_'";
 }
 system "clear";
-print "Done!\n";
 
