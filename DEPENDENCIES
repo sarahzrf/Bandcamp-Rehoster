@@ -1,0 +1,9 @@
+CPAN packages:
+	- LWP
+	- JSON
+Python packages:
+	- gdata (for 2.7)
+Programs:
+	- ImageMagick
+	- ffmpeg (the REAL one)
+
