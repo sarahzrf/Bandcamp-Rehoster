@@ -16,4 +16,5 @@ for (<*.mp3>)
 		"-r 24 -c:v libx264 -crf 18 -tune stillimage -c:a " .
 		"aac -strict -2 -b:a 192k -shortest '../mp4s/$of'";
 }
+system "clear";
 

@@ -10,4 +10,6 @@ for (<*.mp4>)
 		"--title='$title' --description='$title' --category='Music' " . 
 		"--keywords='$title' '$_'";
 }
+system "clear";
+print "Done!\n";
 

@@ -15,5 +15,4 @@ for (@$dat)
 }
 $pid = wait until $pid < 0;
 system "clear";
-print "Done!\n";
 
