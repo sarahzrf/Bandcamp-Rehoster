@@ -1,10 +1,11 @@
+Programs:
+	- ImageMagick
+	- ffmpeg (the REAL one)
 CPAN packages:
 	- LWP::Simple
 	- JSON
 Python packages:
 	- gdata (for 2.7)
 	- progressbar (recommended, not required)
-Programs:
-	- ImageMagick
-	- ffmpeg (the REAL one)
+If you're using Ubuntu, you can get all of these automatically by running get_dependencies_ubuntu.sh.
 
