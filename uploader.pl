@@ -13,6 +13,8 @@ for (<*.mp4>)
 	system("../youtube_upload.py --email='$user' --password='$pass' " .
 		"--title='$title' --description='$title' --category='Music' " . 
 		"--keywords='$title' '$_'") == 0 or exit 1;
+	print "Sleeping five minutes for processing reasons...\n";
+	sleep 60 * 5;
 }
 system "clear";
 
