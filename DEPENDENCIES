@@ -7,5 +7,5 @@ CPAN packages:
 Python packages:
 	- gdata (for 2.7)
 	- progressbar (recommended, not required)
-If you're using Ubuntu, you can get all of these automatically by running get_dependencies_ubuntu.sh.
+If you're using Ubuntu, you can get all of these automatically by running `sudo ./get_dependencies_ubuntu.sh`.
 

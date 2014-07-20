@@ -1,8 +1,7 @@
 #!/usr/bin/perl
 use LWP::Simple;
 
-($al = get(shift)) =~ m#<link rel="alternate" type="application/rss\+xml" title="([^"]+)"#g;
-$al =~ m#<link rel="alternate" type="application/rss\+xml" title="([^"]+)"#g;
+($al = get(shift)) =~ m#<link rel="alternate" type="application/rss\+xml" title="[^"]*" href="[^"]*">[\s\n]*<link rel="alternate" type="application/rss\+xml" title="([^"]*)"#;
 $at = $1;
 $at =~ s/'/'"'"'/g;
 mkdir "mp4s";
