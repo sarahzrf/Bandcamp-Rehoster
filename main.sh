@@ -11,7 +11,7 @@ if ! ./combiner.pl "$1"; then
 	echo "Failed to create the videos!"
 	exit 3
 fi
-if ! ./uploader.pl "$2" "$3"; then
+if ! ./uploader.pl "$1" "$2" "$3"; then
 	echo "Failed to upload the videos!"
 	exit 4
 fi
